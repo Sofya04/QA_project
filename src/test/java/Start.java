@@ -94,9 +94,13 @@ public class Start {
 
         // find items
         WebElement item1 = wd.findElement(By.cssSelector("a[href='#item1']"));
+        WebElement item_1 = wd.findElement(By.linkText("Item 1"));
         WebElement item2 = wd.findElement(By.cssSelector("[href='#item2']"));
+        WebElement item_2 = wd.findElement(By.linkText("Item 2"));
         WebElement item3 = wd.findElement(By.cssSelector("[href='#item3']"));
+        WebElement item_3 = wd.findElement(By.linkText("Item 3"));
         WebElement item4 = wd.findElement(By.cssSelector("[href='#item4']"));
+        WebElement item_4 = wd.findElement(By.linkText("Item 4"));
         //find element of form
         WebElement name = wd.findElement(By.cssSelector("[placeholder='Type your name']"));
         WebElement surname = wd.findElement(By.cssSelector("[placeholder='Type your surename']"));

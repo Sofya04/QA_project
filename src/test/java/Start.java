@@ -107,6 +107,13 @@ public class Start {
         WebElement send = wd.findElement(By.cssSelector(".btn"));
 
         // ****** find from table
-        WebElement poland;
+        //List<WebElement> list = wd.findElements(By.tagName("td"));
+        //WebElement element1 = list.get(9); ///Poland
+        //String text = element1.getText();
+        //System.out.println(text);
+
+        WebElement poland = wd.findElement(By.cssSelector("#country-table tr:last-child td:first-child"));
+
+        wd.quit();
     }
 }

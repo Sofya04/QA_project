@@ -32,9 +32,11 @@ public class XPathTest {
         inputPassword.sendKeys("Sonka04$");
 
         //submit login
-        WebElement submition = wd.findElement(By.xpath("//*[text()=' Login']"));
-        submition.click();
+        WebElement submission = wd.findElement(By.xpath("//*[text()=' Login']"));
+        submission.click();
         wd.quit();
+
+
 
     }
 }
